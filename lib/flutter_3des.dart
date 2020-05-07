@@ -9,6 +9,12 @@ class Flutter3des {
   static const MethodChannel _channel =
       const MethodChannel('flutter_3des');
 
+
+  /// @param string data to be encrypted
+  /// @param key  can't be less than 8 bits
+  /// @param iv  vector (usually 8 bits) (optional)
+  /// @return return byte array
+  ///
   static Future<Uint8List> encrypt(String string, String key,
       {String iv = _iv}) async {
     if (string.isEmpty) {
@@ -38,6 +44,11 @@ class Flutter3des {
     return crypt;
   }
 
+  /// @param data string to be decrypted
+  /// @param key  can't be less than 8 bits
+  /// @param iv  vector (usually 8 bits) (optional)
+  /// @return return string
+  ///
   static Future<String> decrypt(Uint8List data, String key,
       {String iv = _iv}) async {
     final String crypt =
