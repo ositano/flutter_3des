@@ -6,9 +6,7 @@ import 'package:flutter/services.dart';
 const String _iv = '01234567';
 
 class Flutter3des {
-  static const MethodChannel _channel =
-      const MethodChannel('flutter_3des');
-
+  static const MethodChannel _channel = const MethodChannel('flutter_3des');
 
   /// @param string data to be encrypted
   /// @param key  can't be less than 8 bits
@@ -21,7 +19,7 @@ class Flutter3des {
       return Uint8List(0);
     }
     final Uint8List crypt =
-    await _channel.invokeMethod('encrypt', [string, key, iv]);
+        await _channel.invokeMethod('encrypt', [string, key, iv]);
     return crypt;
   }
 
@@ -31,7 +29,7 @@ class Flutter3des {
       return '';
     }
     final String crypt =
-    await _channel.invokeMethod('encryptToHex', [string, key, iv]);
+        await _channel.invokeMethod('encryptToHex', [string, key, iv]);
     return crypt;
   }
 
@@ -52,14 +50,14 @@ class Flutter3des {
   static Future<String> decrypt(Uint8List data, String key,
       {String iv = _iv}) async {
     final String crypt =
-    await _channel.invokeMethod('decrypt', [data, key, iv]);
+        await _channel.invokeMethod('decrypt', [data, key, iv]);
     return crypt;
   }
 
   static Future<String> decryptFromHex(String hex, String key,
       {String iv = _iv}) async {
     final String crypt =
-    await _channel.invokeMethod('decryptFromHex', [hex, key, iv]);
+        await _channel.invokeMethod('decryptFromHex', [hex, key, iv]);
     return crypt;
   }
 

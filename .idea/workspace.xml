@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="413a4cc9-a267-44cc-87e0-4cce3aeb02c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_3des/example/test/unit_test.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/test/unit_test.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_3des/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_3des/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_3des/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_3des/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_3des/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_3des/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_3des/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_3des/example/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_3des/lib/flutter_3des.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_3des/lib/flutter_3des.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_3des/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_3des/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_3des/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_3des/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_3des/test/flutter_3des_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_3des/test/flutter_3des_test.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_3des.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_3des.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/flutter_3des.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flutter_3des.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/flutter_3des_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/flutter_3des_test.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,21 +80,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="911" height="191" key="GridCell.Tab.0.bottom" timestamp="1623754284268">
+    <state width="911" height="191" key="GridCell.Tab.0.bottom" timestamp="1623755440673">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="911" height="191" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1623754284268" />
-    <state width="911" height="191" key="GridCell.Tab.0.center" timestamp="1623754284266">
+    <state width="911" height="191" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1623755440673" />
+    <state width="911" height="191" key="GridCell.Tab.0.center" timestamp="1623755440669">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="911" height="191" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1623754284266" />
-    <state width="911" height="191" key="GridCell.Tab.0.left" timestamp="1623754284261">
+    <state width="911" height="191" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1623755440669" />
+    <state width="911" height="191" key="GridCell.Tab.0.left" timestamp="1623755440669">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="911" height="191" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1623754284261" />
-    <state width="911" height="191" key="GridCell.Tab.0.right" timestamp="1623754284267">
+    <state width="911" height="191" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1623755440669" />
+    <state width="911" height="191" key="GridCell.Tab.0.right" timestamp="1623755440671">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="911" height="191" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1623754284267" />
+    <state width="911" height="191" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1623755440671" />
   </component>
 </project>

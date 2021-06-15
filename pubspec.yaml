@@ -1,5 +1,5 @@
 name: flutter_3des
-description: A flutter implementation of Triple DES (3DES) algorithm
+description: A flutter implementation of Triple DES (3DES) algorithm. This implementation relies on flutter method channel
 version: 0.0.4
 homepage: https://www.github.com/ositano/flutter_3des
 
