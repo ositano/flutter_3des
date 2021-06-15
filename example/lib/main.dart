@@ -15,7 +15,8 @@ const _string = "my name is flutter";
 class _MyAppState extends State<MyApp> {
   static const _key = "702040801020305070B0D1101020305070B0D1112110D0B0";
   static const _iv = "070B0D1101020305";
-  Uint8List _encrypt;
+
+  Uint8List? _encrypt;
   String _decrypt = '';
   String _encryptHex = '';
   String _decryptHex = '';
@@ -41,7 +42,7 @@ class _MyAppState extends State<MyApp> {
     }
     try {
       _encrypt = await Flutter3des.encrypt(_text, _key, iv: _iv);
-      _decrypt = await Flutter3des.decrypt(_encrypt, _key, iv: _iv);
+      _decrypt = await Flutter3des.decrypt(_encrypt!, _key, iv: _iv);
       _encryptHex = await Flutter3des.encryptToHex(_text, _key, iv: _iv);
       _decryptHex = await Flutter3des.decryptFromHex(_encryptHex, _key, iv: _iv);
       _encryptBase64 = await Flutter3des.encryptToBase64(_text, _key, iv: _iv);
