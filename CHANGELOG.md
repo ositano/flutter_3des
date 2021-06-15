@@ -7,3 +7,6 @@
 
 ## 0.0.3
 * added detailed example with screenshot to README.md
+
+## 0.0.4
+* enabled null safety and web support
