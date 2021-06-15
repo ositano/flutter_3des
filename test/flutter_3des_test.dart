@@ -26,4 +26,11 @@ void main() {
     final decrypt = await Flutter3des.decryptFromHex(encrypt, _key, iv: _iv);
     expect(decrypt, _string);
   });
+
+  test('flutter3des_new', () async {
+    final encrypt = await Flutter3des.encryptToHex(_string, _key, iv: _iv);
+    final decrypt = await Flutter3des.decryptFromHex(encrypt, _key, iv: _iv);
+    expect(decrypt, _string);
+  });
+
 }

@@ -18,7 +18,7 @@ class Flutter3des {
   static Future<Uint8List> encrypt(String string, String key,
       {String iv = _iv}) async {
     if (string.isEmpty) {
-      return null;
+      return Uint8List(0);
     }
     final Uint8List crypt =
     await _channel.invokeMethod('encrypt', [string, key, iv]);

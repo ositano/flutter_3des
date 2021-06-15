@@ -1,10 +1,10 @@
 name: flutter_3des
 description: A flutter implementation of Triple DES (3DES) algorithm
-version: 0.0.2
+version: 0.0.4
 homepage: https://www.github.com/ositano/flutter_3des
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
   flutter:
